@@ -1,3 +1,5 @@
+# 第零十章-第十七章正在创作中，敬请期待！
+
 # 第零零章 • 关于
 
 在本书中，你将在学习 C 语言的同时学会编写你自己的编程语言——一个 1000 行左右代码的简单 Lisp。不过我们并不是从零开始编写的，在代码中我用到了一个外部的库来完成一些初始化的工作。但是剩下的最重要的部分都是我们一行一行编写的，而且在本书结束时，你将会拥有一个属于自己的“麻雀虽小，五脏俱全”的 Lisp。
@@ -9,7 +11,7 @@
 - 项目主页：[BuildYourOwnLisp](https://github.com/orangeduck/BuildYourOwnLisp)
 - 共享协议：[CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
-### 译者(Translator)：KSCO (numbksco@gmail.com)
-- 阅读地址：https://ksco.gitbooks.io/build-your-own-lisp/
-- 项目主页：[BuildYourOwnLispCn](https://github.com/ksco/BuildYourOwnLispCn)
+### 译者(Translator)：第零零章-第零十章 KSCO (numbksco@gmail.com) 第零十章-第十七章 Abner Chou (hi@abnerchou.me)
+- 阅读地址：https://josan.gitbook.io/c-lisp/
+- 项目主页：[BuildYourOwnLispCn](https://github.com/NoahDragon/BuildYourOwnLispCn)
 - 共享协议：[CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
