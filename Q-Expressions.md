@@ -117,6 +117,15 @@ void lval_del(lval* v) {
 if (strstr(t->tag, "qexpr"))  { x = lval_qexpr(); }
 ```
 
+同时在`lval_read`中添加一下代码识别花括号:
+
+```c
+if (strcmp(t->children[i]->contents, "(") == 0) { continue; }
+if (strcmp(t->children[i]->contents, ")") == 0) { continue; }
+if (strcmp(t->children[i]->contents, "}") == 0) { continue; }
+if (strcmp(t->children[i]->contents, "{") == 0) { continue; }
+```
+
 因为 Q-表达式没有任何求值方式，所以无需改动任何已有的求值函数，我们的 Q-表达式就可以小试牛刀了。尝试输入几个 Q-表达式，看看是否不会被求值。
 
 ```c
