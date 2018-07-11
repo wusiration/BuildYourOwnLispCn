@@ -14,4 +14,5 @@
 ### 译者(Translator)：第零零章-第零十章 KSCO (numbksco@gmail.com) 第零十章-第十七章 Abner Chou (hi@abnerchou.me)
 - 阅读地址：https://josan.gitbook.io/c-lisp/
 - 项目主页：[BuildYourOwnLispCn](https://github.com/NoahDragon/BuildYourOwnLispCn)
+- 即时通讯: [Slack](https://join.slack.com/t/buildyourownlisp/shared_invite/enQtMzk2NjUwNjQyNjU5LTc0NzBmN2Y2YWE2NjZiNWEyNDQ4ODliMWQ0NDExN2ZjOTA4ZGU5ZGY3OTJkMDY2YzMxZTc4ZTFjYmZiMDk4MmU)
 - 共享协议：[CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
