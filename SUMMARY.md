@@ -18,4 +18,7 @@
 * [第十五章 • 标准库](15.Standard-Library.md)
 * [第十六章 • 彩蛋](16.Bonus-Projects.md)
 * [附录](Appendix.md)
+* [源代码](source.tar.gz)
+* [英文原版在线阅读](http://buildyourownlisp.com/contents)
+* [Github](https://github.com/NoahDragon/BuildYourOwnLispCn)
 
