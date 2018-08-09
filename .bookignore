@@ -1,3 +1,4 @@
 .travis
 .gitignore
 .travis.yml
+.bookignore

@@ -1,8 +1,19 @@
 {
-    "plugins": ["disqus"],
+    "title": "用C语言写Lisp",
+    "plugins": ["disqus", "theme-gestalt", "-theme-default", "styles-sass-fix"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "buildyourownlispcn"
+        },
+        "theme-gestalt": {
+            "logo": "/assets/logo.png",
+            "favicon": "/assets/logo.png",
+            "baseUrl": null,
+            "excludeDefaultStyles": true,
+            "doNotHideChildrenChapters" : false
         }
+    },
+    "styles": {
+        "website": "./assets/styles/website.scss"
     }
 }
