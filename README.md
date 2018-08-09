@@ -1,4 +1,4 @@
-# 第十一章-第十四章及十七章正在创作中，敬请期待！
+# 第十一章-第十四章正在创作中，敬请期待！
 
 # 第零零章 • 关于
 
@@ -6,12 +6,14 @@
 
 很多人非常想学习 C 语言，但却无从下手。现在大可不必担心了。如果你能坚持看完本书，我敢保证，至少你将拥有一个非常酷的新语言可以把玩，说不定还能成为一个熟练的 C 程序员呢！
 
-### 原作者(Author)：Daniel Holden (contact@theorangeduck.com)
+**原作者(Author)**: Daniel Holden (contact@theorangeduck.com)
+
 - 阅读地址：http://buildyourownlisp.com/
 - 项目主页：[BuildYourOwnLisp](https://github.com/orangeduck/BuildYourOwnLisp)
 - 共享协议：[CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
-### 译者(Translator)：第零零章-第零十章 KSCO (numbksco@gmail.com) 第零十章-第十七章 Abner Chou (hi@abnerchou.me) | Bon（bon@utai.io)
+**译者(Translator)**: 第零零章-第零十章 KSCO (numbksco@gmail.com) 第零十章-第十六章 Abner Chou (hi@abnerchou.me) | Bon（bon@utai.io)
+
 - 阅读地址：https://josan.gitbook.io/c-lisp/
 - 项目主页：[BuildYourOwnLispCn](https://github.com/NoahDragon/BuildYourOwnLispCn)
 - 即时通讯：[Slack](https://join.slack.com/t/buildyourownlisp/shared_invite/enQtMzk2NjUwNjQyNjU5LTc0NzBmN2Y2YWE2NjZiNWEyNDQ4ODliMWQ0NDExN2ZjOTA4ZGU5ZGY3OTJkMDY2YzMxZTc4ZTFjYmZiMDk4MmU)
