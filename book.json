@@ -1,7 +1,13 @@
 {
-    "title": "用C语言写Lisp",
-    "plugins": ["disqus", "theme-gestalt", "-theme-default", "styles-sass-fix"],
+    "title": "学C语言写Lisp",
+    "language": "zh-Hans",
+    "plugins": ["disqus", "page-toc", "theme-gestalt", "-theme-default", "styles-sass-fix"],
     "pluginsConfig": {
+        "page-toc": {
+            "selector": ".markdown-section h2",
+            "position": "top",
+            "showByDefault": true
+        },
         "disqus": {
             "shortName": "buildyourownlispcn"
         },
