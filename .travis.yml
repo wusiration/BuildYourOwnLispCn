@@ -1,0 +1,38 @@
+language: node_js
+
+sudo: false
+
+node_js:
+  - stable
+
+cache:
+  apt: true
+  directories:
+    - node_modules
+
+env:
+  - CXX=g++-4.8
+
+install:
+  - npm install gitbook-cli -g
+  - gitbook install
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+  ssh_known_hosts: 
+      - github.com
+
+script:
+  - gitbook build .
+  - chmod u+x .travis/deploy.sh
+
+deploy:
+  provider: script
+  script: .travis/deploy.sh
+  skip_cleanup: true
+  on:
+    branch: master
