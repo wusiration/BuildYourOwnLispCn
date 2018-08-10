@@ -7,7 +7,8 @@
 		"-theme-default",
 		"styles-sass-fix",
 		"analytics",
-	    "collapse"],
+	    "collapse",
+		"adsense"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "buildyourownlispcn"
@@ -19,15 +20,22 @@
             "excludeDefaultStyles": true,
             "doNotHideChildrenChapters" : false
         },
-	"analytics": {
-	    "google": "UA-48498357-5"
+		"analytics": {
+			"google": "UA-48498357-5"
+		},
+		"github-edit": {
+			"repo": "NoahDragon/BuildYourOwnLispCn",
+			"branch": "master"
+		},
+		"adsense": {
+			"client": "ca-pub-6482217598104186",
+			"slot": "7152539784",
+			"format": "auto",
+			"element": ".page-inner section",
+			"position": "top"
+		}
 	},
-	"github-edit": {
-            "repo": "NoahDragon/BuildYourOwnLispCn",
-	    "branch": "master"
-        }
-    },
-    "styles": {
-        "website": "./assets/styles/website.scss"
-    }
+	"styles": {
+		"website": "./assets/styles/website.scss"
+	}
 }
