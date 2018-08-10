@@ -1,21 +1,32 @@
 {
     "title": "学C语言写Lisp",
-    "language": "zh-Hans",
-    "plugins": ["disqus", "anchor-navigation-ex-toc", "theme-gestalt", "-theme-default", "styles-sass-fix", "analytics"],
+    "language": "zh",
+    "plugins": ["disqus",
+		"anchor-navigation-ex-toc",
+		"theme-gestalt",
+		"-theme-default",
+		"styles-sass-fix",
+		"analytics",
+	        "github-edit",
+	        "collapse"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "buildyourownlispcn"
         },
         "theme-gestalt": {
-            "logo": "/assets/logo.png",
-            "favicon": "/assets/logo.png",
+            "logo": "./assets/logo.png",
+            "favicon": "./assets/logo.png",
             "baseUrl": null,
             "excludeDefaultStyles": true,
             "doNotHideChildrenChapters" : false
         },
 	"analytics": {
 	    "google": "UA-48498357-5"
-	}
+	},
+	"github-edit": {
+            "repo": "NoahDragon/BuildYourOwnLispCn",
+	    "branch": "master"
+        }
     },
     "styles": {
         "website": "./assets/styles/website.scss"

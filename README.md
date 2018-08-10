@@ -1,5 +1,7 @@
 # 第十一章-第十四章正在创作中，敬请期待！
 
+[![Build Status](https://travis-ci.org/NoahDragon/BuildYourOwnLispCn.svg?branch=master)](https://travis-ci.org/NoahDragon/BuildYourOwnLispCn)
+
 # 第零零章 • 关于
 
 在本书中，你将在学习 C 语言的同时学会编写你自己的编程语言——一个 1000 行左右代码的简单 Lisp。不过我们并不是从零开始编写的，在代码中我用到了一个外部的库来完成一些初始化的工作。但是剩下的最重要的部分都是我们一行一行编写的，而且在本书结束时，你将会拥有一个属于自己的“麻雀虽小，五脏俱全”的 Lisp。
