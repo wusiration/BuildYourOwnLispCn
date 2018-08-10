@@ -1,13 +1,8 @@
 {
     "title": "学C语言写Lisp",
     "language": "zh-Hans",
-    "plugins": ["disqus", "page-toc", "theme-gestalt", "-theme-default", "styles-sass-fix"],
+    "plugins": ["disqus", "anchor-navigation-ex-toc", "theme-gestalt", "-theme-default", "styles-sass-fix", "analytics"],
     "pluginsConfig": {
-        "page-toc": {
-            "selector": ".markdown-section h2",
-            "position": "top",
-            "showByDefault": true
-        },
         "disqus": {
             "shortName": "buildyourownlispcn"
         },
@@ -17,7 +12,10 @@
             "baseUrl": null,
             "excludeDefaultStyles": true,
             "doNotHideChildrenChapters" : false
-        }
+        },
+	"analytics": {
+	    "google": "UA-48498357-5"
+	}
     },
     "styles": {
         "website": "./assets/styles/website.scss"
