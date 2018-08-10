@@ -1,19 +1,20 @@
 language: node_js
 
-sudo: required 
+sudo: flase 
 dist: trusty
 
 node_js:
   - "lts/*"
 
 cache:
-  apt: true
-  directories:
-    - node_modules
+  - $HOME/.npm
 
 branches:
   only:
     - master
+
+before_install:
+  - export TZ='Asia/Shanghai'
 
 install:
   - npm install gitbook-cli -g
