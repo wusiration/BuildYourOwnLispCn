@@ -16,6 +16,7 @@ git config --global user.name "Abner Chou"
 git config --global user.email contact@abnerchou.me
 # Deploy to GitHub
 cd _book && \
+	touch .nojekyll && \
 	git init && \
 	git add . && \
 	git commit -m "`date`" && \
